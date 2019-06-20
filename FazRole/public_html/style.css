@@ -1,0 +1,66 @@
+/* Tags */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+    Color: #999999;
+    font-size: 16px;
+    font-family: "Comic Sans MS";
+}
+
+body
+{
+    background-color: black;
+}
+
+header{
+    background-color: #35b8b0;
+    height: 100px;
+}
+
+footer{
+    clear: both;
+    background-color: white;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+/*IDs*/
+#imagem{
+    margin-left: 3%;
+    min-height: 200px;
+    width: 27%;
+    float: left; 
+}
+
+#login{
+    margin-right: 5%;
+    min-height: 200px;
+    text-align: right;
+    width: 65%;
+    float: right;
+}
+
+#div_esquerda{
+    background-color: green;
+    min-height: 400px;
+    width: 60%;
+    float: left;
+}
+
+#div_direita{
+    background-color: yellow;
+    min-height: 400px;
+    width: 40%;
+    float: right;
+}
+
+/*Class*/
+.container{
+    margin:auto;
+}
+
+
