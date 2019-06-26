@@ -16,25 +16,59 @@ and open the template in the editor.
  
     <body>
             <header>
-                <div id="imagem" class="container">
-                    <img src="instagram-logo-2.png" width=100px></img>
+                <div id = "imagemPai">
+                    <div id="imagem" class="container">
+                        <!--<img src="instagram-logo-2.png" width=80px></img>-->
+                        <h1>Faz Role</h1>
+                    </div>
                 </div>
                 <div id="login" class="container">
-                    <form action = "processa.php" method="post">
-                        <label>Text</label>
-                        <input type="text" name="texto1" placeholder="Text">
-                        <label>Password</label>
-                        <input type="password" name="senha">
-                        <input type="submit" value="Enviar" name="submit1">
-                    </form>
+                    <div id ="loginfilho">
+                        <form action = "processa.php" method="post">
+                            <label>Login</label>
+                            <input type="text" name="texto1" placeholder="Login">
+                            <label>Password</label>
+                            <input type="password" name="senha" placeholder="password">
+                            <input type="submit" value="Logar" name="submit1">
+                        </form>
+                    </div>
                 </div>
                 
             </header>
 
-            <div>
-                <div id="div_esquerda"></div>
-                <div id="div_direita"></div>
-            <footer>Desenvolvido por Andreas</footer>
+            <div id = "meio">
+                <div id="div_esquerda_pai">
+                    <div id="div_esquerda">
+                        Para criar um evento, é necessário responder várias perguntas:
+                        <br>
+                        Quem vai levar comida? Quem vai levar bebida? 
+                        <br>
+                        Qual a quantidade que está levando?
+                        <br>
+                        Qual a quantidade necessária? 
+                        <br>
+                        São essas perguntas que o FazRolê tenta responder.
+                        <br>
+                        Conheças o melhor site para marcar eventos.
+                        <br>
+                        Faça seu cadastro já.
+                    </div>
+                </div>
+                <div id="div_direita_pai">
+                    <div id="div_direita">
+                            <form action = "processa.php" method="post">
+                                <h3>Cadastre Aqui</h3>
+                                <label>Login</label>
+                                <input type="text" name="texto1" placeholder="Login">
+                                <br>
+                                <label>Password</label>
+                                <input type="password" name="senha" placeholder="password">
+                                <br>
+                                <input type="submit" value="Cadastrar" name="submit1">
+                            </form>
+                    </div>
+                </div>
+            <footer>Desenvolvido por Alunos do Instituto Federal do Espirito Santo - Campus Serra</footer>
         </div>
     </body>
  

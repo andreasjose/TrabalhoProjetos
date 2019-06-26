@@ -4,6 +4,8 @@
     padding: 0px;
 }
 
+
+
 p{
     Color: #999999;
     font-size: 16px;
@@ -22,45 +24,75 @@ header{
 
 footer{
     clear: both;
-    background-color: white;
+    background-color: greenyellow;
     height: 50px;
     text-align: center;
     padding: 10px;
 }
 
 /*IDs*/
-#imagem{
+#meio{
+    background-color: white;    
+}
+
+#imagemPai{
     margin-left: 3%;
-    min-height: 200px;
+    min-height: 100px;
     width: 27%;
     float: left; 
+    display: table;
+}
+
+#imagem{
+    display: table-cell;
+    vertical-align: middle;
 }
 
 #login{
     margin-right: 5%;
-    min-height: 200px;
+    min-height: 100px;
     text-align: right;
     width: 65%;
     float: right;
+    display: table;
 }
 
-#div_esquerda{
-    background-color: green;
+#loginfilho{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#div_esquerda_pai{
+    margin-left: 5%;
+    background-color: white;
     min-height: 400px;
-    width: 60%;
+    width: 35%;
     float: left;
+    display: table;
+}
+
+
+#div_esquerda{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#div_direita_pai{
+    margin-left: 5%;
+    background-color: white;
+    min-height: 400px;
+    width: 55%;
+    float: right;
+    display: table;
 }
 
 #div_direita{
-    background-color: yellow;
-    min-height: 400px;
-    width: 40%;
-    float: right;
+    display: table-cell;
+    vertical-align: middle;
+    align-items: justify ;
 }
 
 /*Class*/
 .container{
-    margin:auto;
+    
 }
-
-
